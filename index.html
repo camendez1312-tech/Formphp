@@ -7,10 +7,12 @@
 <body>
     <h2>Registro de Empleado</h2>
     <form action="informacion.php" method="POST">
-        Nombre: <input type="text" name="nombre"><br>
-        Edad: <input type="number" name="edad"><br>
-        Dirección: <input type="text" name="direccion"><br>
-        Salario: <input type="number" name="salario"><br>
+        Nombre: <input type="text" name="nombre" required><br>
+        Edad: <input type="number" name="edad" required><br>
+        Dirección: <input type="text" name="direccion" required><br>
+        Salario: <input type="number" name="salario" required><br>
+        Cargo: <input type="text" name="cargo" required><br>
+        Correo: <input type="email" name="correo" required><br><br>
         <input type="submit" value="Enviar">
     </form>
 </body>
